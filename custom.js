@@ -11,6 +11,12 @@ function eventListeners() {
   });
 
   listTasks.addEventListener("click", deleteTask);
+
+  input.addEventListener("keypress", function (e) {
+    if (e.key === "Enter") {
+      addTasks();
+    }
+  });
 }
 
 function deleteTask(e) {
@@ -28,7 +34,7 @@ function deleteAll() {
 }
 
 function addTasks() {
-  const task = input.value;
+  const task = input.value.trim();
   if (task === "") {
     showError("the fiel is empty...");
     return;
