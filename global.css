@@ -1,17 +1,27 @@
 body {
+  display: flex;
+  box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  margin-top: 10%;
+  height: 100%;
+  background-image: url(https://media.istockphoto.com/id/1432473911/es/foto/fondo-azul-abstracto-o-papel-oscuro-con-foco-central-brillante-y-marco-de-borde-de-vi%C3%B1eta.jpg?s=612x612&w=0&k=20&c=FUNS-XxJ90pluer43wXLo5nuVJb33eZZQ2Eu9B9Sat8=);
+
+  background-size: 200%;
 }
 
 .section-todo-list {
   width: 50%;
   margin: 0 auto;
   text-align: center;
+  background-color: #a36767e8;
+  border-radius: 2%;
 }
 
 .section-todo-list h2 {
   font-size: 42px;
   margin: 20px;
+  color: #6de3f3;
 }
 
 .input-btn {
@@ -21,26 +31,27 @@ body {
 .input-btn input {
   width: 78%;
   height: 34px;
-  border-radius: none;
-  border-color: #32e7ff;
+  border-radius: 20px;
+  border-color: #230075;
   font-size: 19px;
   padding-left: 17px;
+  background-color: #bdfa9a;
 }
 .input-btn button {
   width: 20%;
   height: 40px;
-  border-radius: none;
-  border-color: #32e7ff;
-  background-color: #32e7ff;
-  color: #fff;
+  border-radius: 25px;
+  border-color: #0026ff;
+  background-color: #bdfa9a;
+  color: #000000;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
 }
 .input-btn button:hover {
-  background-color: #fff;
-  color: #32e7ff;
+  background-color: #5500ff;
+  color: #ffffff;
   transition: all 0.5s 0s;
 }
 .input-btn button:not(:hover) {
@@ -64,20 +75,22 @@ body {
   text-transform: uppercase;
 }
 .list-tasks li span {
-  background-color: #32e7ff;
+  background-color: #0400ff9f;
   border-radius: 50%;
   padding: 1px 8px;
   color: #fff;
   cursor: pointer;
   height: 26px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .list-tasks li span:hover {
-  background-color: red;
+  background-color: rgba(250, 0, 0, 0.849);
+  transition: 0.3s 0s;
 }
 .remove-all {
-  border-radius: none;
-  border-color: #32e7ff;
-  background-color: #32e7ff;
+  border-radius: 20px;
+  border-color: #9bffff;
+  background-color: #000000c9;
   color: #fff;
   text-transform: uppercase;
   font-size: 15px;
@@ -86,12 +99,12 @@ body {
   padding: 9px 16px;
 }
 .remove-all:hover {
-  background-color: #fff;
-  color: #32e7ff;
+  background-color: #e90000;
+  color: #ffffff;
   transition: all 0.5s 0s;
 }
 .remove-all:not(:hover) {
-  transition: all 0.5s 0s ease;
+  transition: all 0.3s 0s ease;
 }
 
 @media only screen and (max-width: 768px) {
@@ -100,10 +113,10 @@ body {
   }
 }
 .error {
-  color: red;
+  color: rgb(255, 36, 36);
   text-align: left;
-  background-color: #ffe5e5;
+  background-color: #ff8181;
   padding: 2px 13px;
-  border: solid red;
+  border: solid rgb(255, 47, 47);
   border-radius: 2px;
 }
