@@ -5,23 +5,25 @@ body {
     "Lucida Sans", Arial, sans-serif;
   margin-top: 10%;
   height: 100%;
-  background-image: url(https://media.istockphoto.com/id/1432473911/es/foto/fondo-azul-abstracto-o-papel-oscuro-con-foco-central-brillante-y-marco-de-borde-de-vi%C3%B1eta.jpg?s=612x612&w=0&k=20&c=FUNS-XxJ90pluer43wXLo5nuVJb33eZZQ2Eu9B9Sat8=);
-
-  background-size: 200%;
+  background-color: #85a0ff;
 }
 
 .section-todo-list {
   width: 50%;
   margin: 0 auto;
   text-align: center;
-  background-color: #a36767e8;
+  background-color: #b3c7ff;
   border-radius: 2%;
+}
+
+h4 {
+  color: #ffffff;
 }
 
 .section-todo-list h2 {
   font-size: 42px;
   margin: 20px;
-  color: #6de3f3;
+  color: #ffffff;
 }
 
 .input-btn {
@@ -32,25 +34,25 @@ body {
   width: 78%;
   height: 34px;
   border-radius: 20px;
-  border-color: #230075;
+  border-color: #d5e1ff;
   font-size: 19px;
   padding-left: 17px;
-  background-color: #bdfa9a;
+  background-color: #d5e1ff;
 }
 .input-btn button {
   width: 20%;
   height: 40px;
   border-radius: 25px;
-  border-color: #0026ff;
-  background-color: #bdfa9a;
-  color: #000000;
+  border-color: #d5e1ff;
+  background-color: #d5e1ff;
+  color: #2f37ff;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
 }
 .input-btn button:hover {
-  background-color: #5500ff;
+  background-color: #596dff;
   color: #ffffff;
   transition: all 0.5s 0s;
 }
@@ -75,22 +77,22 @@ body {
   text-transform: uppercase;
 }
 .list-tasks li span {
-  background-color: #0400ff9f;
+  background-color: #989898;
   border-radius: 50%;
   padding: 1px 8px;
-  color: #fff;
+  color: #292929;
   cursor: pointer;
   height: 26px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .list-tasks li span:hover {
-  background-color: rgba(250, 0, 0, 0.849);
+  background-color: #fc0606;
   transition: 0.3s 0s;
 }
 .remove-all {
   border-radius: 20px;
   border-color: #9bffff;
-  background-color: #000000c9;
+  background-color: #92b8ff;
   color: #fff;
   text-transform: uppercase;
   font-size: 15px;
@@ -99,7 +101,7 @@ body {
   padding: 9px 16px;
 }
 .remove-all:hover {
-  background-color: #e90000;
+  background-color: #ff2626;
   color: #ffffff;
   transition: all 0.5s 0s;
 }
